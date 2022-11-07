@@ -15,7 +15,7 @@ class Bola {
     r = d/2;
 
     bX = mouseX;
-    bY = height - height/11;
+    bY = height - height/10;
 
     vX = 3;
     vY = -5;
@@ -43,8 +43,8 @@ class Bola {
         vida--;
       }
     } else { //No 'move = false', a bola acompanha o bastão
-      bY = height - height/11;
-      bX = mouseX; 
+      bY = height - height/10;
+      bX = mouseX;
 
       //Garante que a bola fique no centro do bastão
       if (bX >= width - bastao.w/2) {
@@ -83,9 +83,9 @@ class Bola {
 
   //display
   void display() {
-    fill(255, 255, 0);
+    fill(0, 255, 255);
     ellipse(bX, bY, d, d);
-    fill(255, 150, 100);
+    fill(100, 150, 255);
     ellipse(bX, bY, d-10, d-10);
   }
 }
