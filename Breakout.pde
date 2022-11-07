@@ -42,8 +42,8 @@ void draw() {
 void mostraMenu() {
   background(0);
   textFont(fonte1);
-  textSize(100);
-  fill(255);
+  textSize(110);
+  fill(0, 255, 255);
   text("BREAKOUT", width/2, height/2);
 
   textFont(fonte2);
@@ -62,6 +62,8 @@ void mostraMenu() {
 
 void mostraJogo() {
   background(0);
+  fill(50);
+  rect(0, height - height/20, width, height/20);
   mostraVida();
   if (vida > 0) {
     mostraScore();
@@ -83,6 +85,7 @@ void criaNivel(int l, int c) {
   bastao = new Bastao(); //O 'new' chama o constructor 'Bastao'
 
   bloco = new Bloco[l][c]; //O 'new' chama o constructor 'Bloco'
+
   for (int i = 0; i < bloco.length; i++) { //D
     for (int j = 0; j < bloco[0].length; j++) { //D
       bloco[i][j] = new Bloco(i, j+2, bloco.length);
@@ -121,7 +124,6 @@ void gameOver() {
     setup();
   }
 }
-
 
 void mostraVida() {
   textFont(fonte2);
