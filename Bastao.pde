@@ -11,7 +11,7 @@ class Bastao {
     h = height/70;
 
     bX = mouseX;
-    bY = height - height/15;
+    bY = height - height/13;
 
     vX = 3;
     vY = -5;
@@ -32,11 +32,11 @@ class Bastao {
 
   //display
   void display() {
-    fill(255, 0, 255);
-    rect(bX - w/2 -3, bY-3, w+6, h+6, 8);
     fill(150);
-    rect(bX-w/2, bY, w, h, 8);
+    rect(bX - w/2 -3, bY-3, w+6, h+6, 8);
     fill(255);
+    rect(bX-w/2, bY, w, h, 8);
+    fill(255, 0, 255);
     rect(bX-w/2+3, bY+3, w-6, h-6, 8);
   }
 }
