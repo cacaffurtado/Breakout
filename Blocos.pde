@@ -63,6 +63,7 @@ class Bloco {
         bola.vY *= -1;
         estadoBloco = false;
         score += 10;
+
         //aux++;
         //println(aux);
         //if (aux == 2) {
@@ -89,6 +90,39 @@ class Bloco {
         estadoBloco = false;
         score += 10;
       }
+
+      //QUINAS
+      //BAIXO-ESQUERDA
+      if (bola.bX == (bX-bola.r) && bola.bY == (bY+h+bola.r)) {
+        bola.vX *= -1;
+        bola.vY *= -1;
+        estadoBloco = false;
+        score += 10;
+      }
+
+      //CIMA-ESQUERDA
+      if (bola.bX == (bX-bola.r) && bola.bY == (bY-bola.r)) {
+        bola.vX *= -1;
+        bola.vY *= -1;
+        estadoBloco = false;
+        score += 10;
+      }
+
+      //BAIXO-DIREITA
+      if (bola.bX == (bX+w+bola.r) && bola.bY == (bY+h+bola.r)) {
+        bola.vX *= -1;
+        bola.vY *= -1;
+        estadoBloco = false;
+        score += 10;
+      }
+
+      //CIMA-DIREITA
+      if (bola.bX == (bX+w+bola.r) && bola.bY == (bY-bola.r)) {
+        bola.vX *= -1;
+        bola.vY *= -1;
+        estadoBloco = false;
+        score += 10;
+      }
     }
   }
 
@@ -98,7 +132,7 @@ class Bloco {
     if (estadoBloco) {
       rect(bX, bY, w, h, 10);
       fill(255, 255, 0);
-      rect(bX+8, bY+8, w-16, h-16, 2);
+      rect(bX+6, bY+6, w-12, h-12, 2);
       fill(r, g, b);
       rect(bX+10, bY+10, w-20, h-20, 3);
     }
