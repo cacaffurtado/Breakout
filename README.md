@@ -1,7 +1,7 @@
 # Breakout
 Programação 2 - 2022.2
 
-AP1 - Data máxima: 07/11/2022
+-> AP1 - Data máxima: 07/11/2022
 
 - Escolha um jogo antigo da geração de 8bit ou mais antigo (atari, NES, etc).
 - Um protótipo do jogo deve ser criado usando p5 ou processing.
@@ -10,10 +10,10 @@ AP1 - Data máxima: 07/11/2022
 - Não são necessários elemento visuais, use círculos e retângulos para representar os elementos do jogo.
 
 
-AP2 - Data máxima: 12/12
+-> AP2 - Data máxima: 12/12/2022
 
-- Power-ups.
-- Elementos visuais (circulos, quadrados) vão aparecer em posições aleatórias na tela e se mover segundo uma lógica definida.
+
+- POWER-UPs: Elementos visuais (circulos, quadrados) vão aparecer em posições aleatórias na tela e se mover segundo uma lógica definida.
 - Sempre que o elemento controlado pelo jogador tocar um dos power-ups um efeito vai acontecer.
 - Devem existir pelo menos 2 tipos de efeito:
   - Um que altera alguma caracteristica do elemento controlado pelo jogador (cor, tamanho, velocidade, deslocamento, etc).
