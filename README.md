@@ -17,8 +17,7 @@ AP2 - Data máxima: 12/12
 - Sempre que o elemento controlado pelo jogador tocar um dos power-ups um efeito vai acontecer.
 - Devem existir pelo menos 2 tipos de efeito:
   - Um que altera alguma caracteristica do elemento controlado pelo jogador (cor, tamanho, velocidade, deslocamento, etc).
-  
-  -Um que altera alguma caracteristica de um elemento que não é controlado pelo jogador (cor, tamanho, velocidade, deslocamento, etc).
+  - Um que altera alguma caracteristica de um elemento que não é controlado pelo jogador (cor, tamanho, velocidade, deslocamento, etc).
 - Elementos controlados pelo jogador que não se movem em duas dimensões devem ser modificados para se mover em duas dimensões para conseguir tocar os power-ups.
 - Deve ser possível ter múltiplos power-ups ao mesmo tempo (4 power-ups em tela).
 
