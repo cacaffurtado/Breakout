@@ -1,7 +1,8 @@
 # Breakout
 Programação 2 - 2022.2
+Nota: 10.0
 
--> AP1 - Data máxima: 07/11/2022
+-> AP1
 
 - Escolha um jogo antigo da geração de 8bit ou mais antigo (atari, NES, etc).
 - Um protótipo do jogo deve ser criado usando p5 ou processing.
@@ -10,7 +11,7 @@ Programação 2 - 2022.2
 - Não são necessários elemento visuais, use círculos e retângulos para representar os elementos do jogo.
 
 
--> AP2 - Data máxima: 12/12/2022
+-> AP2
 
 
 - POWER-UPs: Elementos visuais (circulos, quadrados) vão aparecer em posições aleatórias na tela e se mover segundo uma lógica definida.
